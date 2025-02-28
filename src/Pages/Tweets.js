@@ -4,6 +4,8 @@ import './Tweets.css';
 // ! 위 코드는 수정하지 않습니다.
 
 // TODO - import문을 이용하여 Footer 컴포넌트를 불러오세요.
+import Footer from '../Footer';
+
 
 const Tweets = () => {
   return (
@@ -40,6 +42,7 @@ const Tweets = () => {
         })}
       </ul>
       {/* TODO - Footer 컴포넌트를 작성합니다. */}
+      <Footer />
     </div>
   );
 };
